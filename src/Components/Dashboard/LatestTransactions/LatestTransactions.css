@@ -1,0 +1,87 @@
+.latestBlock {
+  width: 45%;
+  height: 95%;
+  box-shadow: 0 0 5px rgb(233, 230, 230);
+  animation: mymove 0.5s ease-in-out;
+}
+
+@keyframes mymove {
+  0% {
+    transform: translateY(120%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.latestBlock .headingDiv {
+  width: 98%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  font-size: 1.5vw;
+  color: white;
+  background-color: #0c3694;
+  font-weight: bold;
+}
+
+.latestBlock .blockData {
+  height: 8%;
+  width: 90%;
+  margin: 2% auto;
+  display: flex;
+}
+
+.latestBlock .blockData .block {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latestBlock .blockData .block .blockIcon {
+  color: white;
+  background-color: #0c3694;
+  padding: 1% 3% 2% 4%;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+.latestBlock .blockData .block .blockName {
+  color: rgba(150, 146, 146, 0.822);
+  margin-left: 5%;
+}
+
+.latestBlock .blockData .minerDiv {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(150, 146, 146, 0.822);
+}
+
+.latestBlock .blockData .sizeDiv {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latestBlock .blockData .sizeDiv .sizeIcon {
+  color: white;
+  background-color: #0c3694;
+  padding: 1% 3% 2% 4%;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+.latestBlock .blockData .sizeDiv .sizeValue {
+  color: rgba(150, 146, 146, 0.822);
+  margin-left: 5%;
+}

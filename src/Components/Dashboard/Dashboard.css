@@ -1,0 +1,102 @@
+.MainDiv {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.MainDiv .HeaderDiv {
+  width: 98%;
+  padding-left: 2%;
+  height: 10%;
+  background-color: aqua;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #0c3694;
+  animation: mymove2 0.5s ease-in-out;
+}
+
+@keyframes mymove2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.MainDiv .HeaderDiv .Icon {
+  font-size: 2.5vw;
+  color: white;
+}
+
+.MainDiv .HeaderDiv .Heading {
+  font-size: 2vw;
+  color: white;
+  margin-left: 1%;
+  margin-bottom: 0.5%;
+  font-weight: bold;
+}
+
+.MainDiv .StatsDiv {
+  width: 80%;
+  height: 26%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MainDiv .StatsDiv .Card {
+  width: 23%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0 0 5px rgb(233, 230, 230);
+  border-radius: 5px;
+}
+
+.MainDiv .StatsDiv .Card .CardName {
+  font-size: 2vw;
+  color: #0c3694;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainDiv .StatsDiv .Card .CardText {
+  margin-bottom: 0.5%;
+  margin-left: 1.5%;
+}
+
+.MainDiv .StatsDiv .Card .CardDesc {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(170, 165, 165, 0.822);
+}
+
+.MainDiv .StatsDiv .Card .CardDesc .ethUSD {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-weight: bold;
+}
+.MainDiv .StatsDiv .Card .CardDesc .ethBTC {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-weight: bold;
+}
+
+.MainDiv .tableDiv {
+  width: 100%;
+  height: 64%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
